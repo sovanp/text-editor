@@ -33,3 +33,5 @@ class Editor {
         void print_status_line();           // Prints the status line
         void update_status();               // Updates the status line (text, not display)
 };
+
+#endif
