@@ -12,10 +12,10 @@ void curses_init() {
 
 
 int main(int argc, char *argv[]) {
-    std::string file_name = ""; // Create string variable
+    std::string fn = ""; // Create string variable
 
     if (argc > 1) {
-        file_name = argv[1];    // Set the file name
+        fn = argv[1];    // Set the file name
     }
 
     curses_init();              // Initialize curses
