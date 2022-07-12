@@ -1,4 +1,3 @@
-#include <iostream>
 #include <curses.h>
 #include <string>
 #include "editor.h"

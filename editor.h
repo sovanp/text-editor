@@ -8,7 +8,7 @@ class Editor {
     private:
         int x, y;                           // Screen positions
         char mode;
-        Buffer *buffs;
+        Buffer *buff;
         std::string status, file_name;
 
         // Cursor movement
