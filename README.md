@@ -1,23 +1,28 @@
 # text-editor
 
-text-editor is a plain text editor designed for simple usage.
+text-editor is a plain text editor using the C/C++ ncurses library to create a light-weight text editor for simple usage.
 
-text-editor is a small project with the C/C++ ncurses library to create a (sort-of) light-weight text editor.
+## Usage
 
-Current version: v0.1.0
+Defaults in normal mode. 
 
-# Build
+Press `x` to quit. 
 
-Requires the ncurses library (along with gcc/g++ and make)
-
-    make clean all
-
-# Usage
-
-    ./text-editor <filename>
-
-Defaults in normal mode. Press `x` to quit. Press `s` to save.
+Press `s` to save.
 
 Press `i` to go into insert mode.
 
-# Credits
+## Setup
+
+Requires the ncurses library (along with gcc/g++ and make)
+
+Clone the repo ```git clone <repo>```
+
+Run the commands:
+
+```make clean all```
+    
+```./text-editor <filename>```
+
+## Credits
+NCURSES Terminal Text Editor: https://cheuksblog.ca/tutorial/c++/2015/02/01/ncurses-editor-tutorial-01.html
